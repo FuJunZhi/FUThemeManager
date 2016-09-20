@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA925BE51D338F5B009776EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BE41D338F5B009776EC /* main.m */; };
+		CA925BE81D338F5B009776EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BE71D338F5B009776EC /* AppDelegate.m */; };
+		CA925BEB1D338F5B009776EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BEA1D338F5B009776EC /* ViewController.m */; };
+		CA925BEE1D338F5B009776EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA925BEC1D338F5B009776EC /* Main.storyboard */; };
+		CA925BF01D338F5B009776EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA925BEF1D338F5B009776EC /* Assets.xcassets */; };
+		CA925BF31D338F5B009776EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA925BF11D338F5B009776EC /* LaunchScreen.storyboard */; };
+		CA925BFE1D338F5B009776EC /* FUThemeManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BFD1D338F5B009776EC /* FUThemeManageTests.m */; };
+		CA925C091D338F5B009776EC /* FUThemeManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925C081D338F5B009776EC /* FUThemeManageUITests.m */; };
+		CA925C181D338FC3009776EC /* FUThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925C171D338FC3009776EC /* FUThemeManager.m */; };
+		CA925C1E1D339137009776EC /* activity_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA925C191D339137009776EC /* activity_circle@2x.png */; };
+		CA925C1F1D339137009776EC /* activity_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1B1D339137009776EC /* activity_circle@2x.png */; };
+		CA925C201D339137009776EC /* ThemeConfig.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1C1D339137009776EC /* ThemeConfig.strings */; };
+		CA925C211D339137009776EC /* ThemeConfig.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1D1D339137009776EC /* ThemeConfig.strings */; };
+		F27E41C8DAF469359E634F73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D04AEBE576E5A8DE7BE032 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA925BFA1D338F5B009776EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA925BD81D338F5B009776EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA925BDF1D338F5B009776EC;
+			remoteInfo = FUThemeManage;
+		};
+		CA925C051D338F5B009776EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA925BD81D338F5B009776EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA925BDF1D338F5B009776EC;
+			remoteInfo = FUThemeManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41D04AEBE576E5A8DE7BE032 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABF6DAF937C528E5D6FFCF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BDB14D30728BC21BA78F074C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CA925BE01D338F5B009776EC /* FUThemeManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUThemeManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA925BE41D338F5B009776EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA925BE61D338F5B009776EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA925BE71D338F5B009776EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA925BE91D338F5B009776EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA925BEA1D338F5B009776EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA925BED1D338F5B009776EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA925BEF1D338F5B009776EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA925BF21D338F5B009776EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA925BF41D338F5B009776EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA925BF91D338F5B009776EC /* FUThemeManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUThemeManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA925BFD1D338F5B009776EC /* FUThemeManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUThemeManageTests.m; sourceTree = "<group>"; };
+		CA925BFF1D338F5B009776EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA925C041D338F5B009776EC /* FUThemeManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUThemeManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA925C081D338F5B009776EC /* FUThemeManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUThemeManageUITests.m; sourceTree = "<group>"; };
+		CA925C0A1D338F5B009776EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA925C161D338FC3009776EC /* FUThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUThemeManager.h; sourceTree = SOURCE_ROOT; };
+		CA925C171D338FC3009776EC /* FUThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUThemeManager.m; sourceTree = SOURCE_ROOT; };
+		CA925C191D339137009776EC /* activity_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity_circle@2x.png"; sourceTree = "<group>"; };
+		CA925C1B1D339137009776EC /* activity_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity_circle@2x.png"; sourceTree = "<group>"; };
+		CA925C1C1D339137009776EC /* ThemeConfig.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ThemeConfig.strings; sourceTree = "<group>"; };
+		CA925C1D1D339137009776EC /* ThemeConfig.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ThemeConfig.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA925BDD1D338F5B009776EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27E41C8DAF469359E634F73 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925BF61D338F5B009776EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925C011D338F5B009776EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A26EEE2A7EABF08DEC4A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41D04AEBE576E5A8DE7BE032 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E40E57263A3B7B0486E76F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDB14D30728BC21BA78F074C /* Pods.debug.xcconfig */,
+				4ABF6DAF937C528E5D6FFCF4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA925BD71D338F5B009776EC = {
+			isa = PBXGroup;
+			children = (
+				CA925BE21D338F5B009776EC /* FUThemeManage */,
+				CA925BFC1D338F5B009776EC /* FUThemeManageTests */,
+				CA925C071D338F5B009776EC /* FUThemeManageUITests */,
+				CA925BE11D338F5B009776EC /* Products */,
+				2E40E57263A3B7B0486E76F2 /* Pods */,
+				18A26EEE2A7EABF08DEC4A59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA925BE11D338F5B009776EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA925BE01D338F5B009776EC /* FUThemeManage.app */,
+				CA925BF91D338F5B009776EC /* FUThemeManageTests.xctest */,
+				CA925C041D338F5B009776EC /* FUThemeManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA925BE21D338F5B009776EC /* FUThemeManage */ = {
+			isa = PBXGroup;
+			children = (
+				CA925BE61D338F5B009776EC /* AppDelegate.h */,
+				CA925BE71D338F5B009776EC /* AppDelegate.m */,
+				CA925BE91D338F5B009776EC /* ViewController.h */,
+				CA925BEA1D338F5B009776EC /* ViewController.m */,
+				CA925C161D338FC3009776EC /* FUThemeManager.h */,
+				CA925C171D338FC3009776EC /* FUThemeManager.m */,
+				CA925BEC1D338F5B009776EC /* Main.storyboard */,
+				CA925C1A1D339137009776EC /* Night */,
+				CA925C191D339137009776EC /* activity_circle@2x.png */,
+				CA925C1D1D339137009776EC /* ThemeConfig.strings */,
+				CA925BEF1D338F5B009776EC /* Assets.xcassets */,
+				CA925BF11D338F5B009776EC /* LaunchScreen.storyboard */,
+				CA925BF41D338F5B009776EC /* Info.plist */,
+				CA925BE31D338F5B009776EC /* Supporting Files */,
+			);
+			path = FUThemeManage;
+			sourceTree = "<group>";
+		};
+		CA925BE31D338F5B009776EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA925BE41D338F5B009776EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA925BFC1D338F5B009776EC /* FUThemeManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA925BFD1D338F5B009776EC /* FUThemeManageTests.m */,
+				CA925BFF1D338F5B009776EC /* Info.plist */,
+			);
+			path = FUThemeManageTests;
+			sourceTree = "<group>";
+		};
+		CA925C071D338F5B009776EC /* FUThemeManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA925C081D338F5B009776EC /* FUThemeManageUITests.m */,
+				CA925C0A1D338F5B009776EC /* Info.plist */,
+			);
+			path = FUThemeManageUITests;
+			sourceTree = "<group>";
+		};
+		CA925C1A1D339137009776EC /* Night */ = {
+			isa = PBXGroup;
+			children = (
+				CA925C1B1D339137009776EC /* activity_circle@2x.png */,
+				CA925C1C1D339137009776EC /* ThemeConfig.strings */,
+			);
+			path = Night;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA925BDF1D338F5B009776EC /* FUThemeManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA925C0D1D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManage" */;
+			buildPhases = (
+				8AD8EFAAD8D9245753BC97EB /* Check Pods Manifest.lock */,
+				CA925BDC1D338F5B009776EC /* Sources */,
+				CA925BDD1D338F5B009776EC /* Frameworks */,
+				CA925BDE1D338F5B009776EC /* Resources */,
+				8E078BD701611E6AF8DB411C /* Embed Pods Frameworks */,
+				018267DA681F681567447049 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FUThemeManage;
+			productName = FUThemeManage;
+			productReference = CA925BE01D338F5B009776EC /* FUThemeManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA925BF81D338F5B009776EC /* FUThemeManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA925C101D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManageTests" */;
+			buildPhases = (
+				CA925BF51D338F5B009776EC /* Sources */,
+				CA925BF61D338F5B009776EC /* Frameworks */,
+				CA925BF71D338F5B009776EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA925BFB1D338F5B009776EC /* PBXTargetDependency */,
+			);
+			name = FUThemeManageTests;
+			productName = FUThemeManageTests;
+			productReference = CA925BF91D338F5B009776EC /* FUThemeManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA925C031D338F5B009776EC /* FUThemeManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA925C131D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManageUITests" */;
+			buildPhases = (
+				CA925C001D338F5B009776EC /* Sources */,
+				CA925C011D338F5B009776EC /* Frameworks */,
+				CA925C021D338F5B009776EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA925C061D338F5B009776EC /* PBXTargetDependency */,
+			);
+			name = FUThemeManageUITests;
+			productName = FUThemeManageUITests;
+			productReference = CA925C041D338F5B009776EC /* FUThemeManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA925BD81D338F5B009776EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = QunBao;
+				TargetAttributes = {
+					CA925BDF1D338F5B009776EC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CA925BF81D338F5B009776EC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA925BDF1D338F5B009776EC;
+					};
+					CA925C031D338F5B009776EC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA925BDF1D338F5B009776EC;
+					};
+				};
+			};
+			buildConfigurationList = CA925BDB1D338F5B009776EC /* Build configuration list for PBXProject "FUThemeManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA925BD71D338F5B009776EC;
+			productRefGroup = CA925BE11D338F5B009776EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA925BDF1D338F5B009776EC /* FUThemeManage */,
+				CA925BF81D338F5B009776EC /* FUThemeManageTests */,
+				CA925C031D338F5B009776EC /* FUThemeManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA925BDE1D338F5B009776EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA925C211D339137009776EC /* ThemeConfig.strings in Resources */,
+				CA925C201D339137009776EC /* ThemeConfig.strings in Resources */,
+				CA925BF31D338F5B009776EC /* LaunchScreen.storyboard in Resources */,
+				CA925C1E1D339137009776EC /* activity_circle@2x.png in Resources */,
+				CA925BF01D338F5B009776EC /* Assets.xcassets in Resources */,
+				CA925C1F1D339137009776EC /* activity_circle@2x.png in Resources */,
+				CA925BEE1D338F5B009776EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925BF71D338F5B009776EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925C021D338F5B009776EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018267DA681F681567447049 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD8EFAAD8D9245753BC97EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E078BD701611E6AF8DB411C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA925BDC1D338F5B009776EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA925C181D338FC3009776EC /* FUThemeManager.m in Sources */,
+				CA925BEB1D338F5B009776EC /* ViewController.m in Sources */,
+				CA925BE81D338F5B009776EC /* AppDelegate.m in Sources */,
+				CA925BE51D338F5B009776EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925BF51D338F5B009776EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA925BFE1D338F5B009776EC /* FUThemeManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA925C001D338F5B009776EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA925C091D338F5B009776EC /* FUThemeManageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA925BFB1D338F5B009776EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA925BDF1D338F5B009776EC /* FUThemeManage */;
+			targetProxy = CA925BFA1D338F5B009776EC /* PBXContainerItemProxy */;
+		};
+		CA925C061D338F5B009776EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA925BDF1D338F5B009776EC /* FUThemeManage */;
+			targetProxy = CA925C051D338F5B009776EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA925BEC1D338F5B009776EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA925BED1D338F5B009776EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA925BF11D338F5B009776EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA925BF21D338F5B009776EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA925C0B1D338F5B009776EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA925C0C1D338F5B009776EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA925C0E1D338F5B009776EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB14D30728BC21BA78F074C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FUThemeManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA925C0F1D338F5B009776EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABF6DAF937C528E5D6FFCF4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FUThemeManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA925C111D338F5B009776EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FUThemeManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUThemeManage.app/FUThemeManage";
+			};
+			name = Debug;
+		};
+		CA925C121D338F5B009776EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FUThemeManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUThemeManage.app/FUThemeManage";
+			};
+			name = Release;
+		};
+		CA925C141D338F5B009776EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FUThemeManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FUThemeManage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA925C151D338F5B009776EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FUThemeManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FUThemeManage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA925BDB1D338F5B009776EC /* Build configuration list for PBXProject "FUThemeManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA925C0B1D338F5B009776EC /* Debug */,
+				CA925C0C1D338F5B009776EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA925C0D1D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA925C0E1D338F5B009776EC /* Debug */,
+				CA925C0F1D338F5B009776EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA925C101D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA925C111D338F5B009776EC /* Debug */,
+				CA925C121D338F5B009776EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA925C131D338F5B009776EC /* Build configuration list for PBXNativeTarget "FUThemeManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA925C141D338F5B009776EC /* Debug */,
+				CA925C151D338F5B009776EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA925BD81D338F5B009776EC /* Project object */;
+}
