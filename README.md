@@ -9,10 +9,12 @@
 
   2. Run `pod install` or `pod update`.
 
-  3. #import "FUThemeManager.h".
+  3. '#import "FUThemeManager.h"'.
 
 
 ###initialize
+## <a id="initialize"></a>
+```objc
 
 1.单例
 + (instancetype)manager;
@@ -52,3 +54,5 @@
 + (UIImage *)imageNamed:(NSString *)name;
 //获取属性列表文件里面配置的皮肤颜色
 + (UIColor *)colorNamed:(NSString *)name;
+@end
+```
