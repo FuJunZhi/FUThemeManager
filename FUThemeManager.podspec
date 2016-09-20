@@ -8,6 +8,9 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "7.0"
     s.source       = {:git => "https://github.com/FuJunZhi/FUThemeManager.git", :tag => s.version}
     s.source_files = "FUThemeManager/*.{h,m}"
-    s.resources = "FUThemeManager/FUThemeManager.bundle"
+    s.resource = "FUThemeManager/FUThemeManager.bundle"
+    s.frameworks = "UIKit", "Foundation"
+    s.dependency "AFNetworking", "~> 3.0"
+    s.dependency "SDWebImage", "~> 3.8"
     s.requires_arc = true
 end
