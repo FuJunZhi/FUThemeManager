@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "FUThemeManager"
-    s.version      = "1.0.0"
+    s.version      = "1.0"
     s.summary      = "ThemeManager"
     s.homepage     = "https://github.com/FuJunZhi/FUThemeManager"
     s.license      = "MIT"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.source_files = "FUThemeManager/*.{h,m}"
     s.resource = "FUThemeManager/FUThemeManager.bundle"
     s.frameworks = "UIKit", "Foundation"
-    s.dependency "AFNetworking", "~> 3.0"
-    s.dependency "SDWebImage", "~> 3.8"
+    s.dependency "AFNetworking"
+    s.dependency "SDWebImage"
     s.requires_arc = true
 end
