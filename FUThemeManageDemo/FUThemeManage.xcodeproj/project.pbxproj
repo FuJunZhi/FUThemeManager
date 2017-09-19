@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40557B4D1F6FC4F700BEBE05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B4C1F6FC4F700BEBE05 /* AppDelegate.m */; };
+		40557B5B1F6FC50B00BEBE05 /* DefaultConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 40557B4F1F6FC50B00BEBE05 /* DefaultConfig.json */; };
+		40557B5C1F6FC50B00BEBE05 /* FUThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B511F6FC50B00BEBE05 /* FUThemeManager.m */; };
+		40557B5D1F6FC50B00BEBE05 /* NightConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 40557B521F6FC50B00BEBE05 /* NightConfig.json */; };
+		40557B5E1F6FC50B00BEBE05 /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B561F6FC50B00BEBE05 /* MineCell.m */; };
+		40557B5F1F6FC50B00BEBE05 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40557B571F6FC50B00BEBE05 /* MineCell.xib */; };
+		40557B601F6FC50B00BEBE05 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B5A1F6FC50B00BEBE05 /* MineViewController.m */; };
+		40557B661F6FC55500BEBE05 /* MineUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B631F6FC55500BEBE05 /* MineUIService.m */; };
+		40557B671F6FC55500BEBE05 /* MineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40557B651F6FC55500BEBE05 /* MineViewModel.m */; };
+		40E964151F70A8850047DCF9 /* test1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E964111F70A8850047DCF9 /* test1-1.png */; };
+		40E964161F70A8850047DCF9 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E964121F70A8850047DCF9 /* test1.png */; };
+		40E964171F70A8850047DCF9 /* test2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E964131F70A8850047DCF9 /* test2-2.png */; };
+		40E964181F70A8850047DCF9 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E964141F70A8850047DCF9 /* test2.png */; };
 		CA925BE51D338F5B009776EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BE41D338F5B009776EC /* main.m */; };
-		CA925BE81D338F5B009776EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BE71D338F5B009776EC /* AppDelegate.m */; };
-		CA925BEB1D338F5B009776EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BEA1D338F5B009776EC /* ViewController.m */; };
 		CA925BEE1D338F5B009776EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA925BEC1D338F5B009776EC /* Main.storyboard */; };
 		CA925BF01D338F5B009776EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA925BEF1D338F5B009776EC /* Assets.xcassets */; };
 		CA925BF31D338F5B009776EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA925BF11D338F5B009776EC /* LaunchScreen.storyboard */; };
 		CA925BFE1D338F5B009776EC /* FUThemeManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925BFD1D338F5B009776EC /* FUThemeManageTests.m */; };
 		CA925C091D338F5B009776EC /* FUThemeManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925C081D338F5B009776EC /* FUThemeManageUITests.m */; };
-		CA925C181D338FC3009776EC /* FUThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA925C171D338FC3009776EC /* FUThemeManager.m */; };
-		CA925C1E1D339137009776EC /* activity_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA925C191D339137009776EC /* activity_circle@2x.png */; };
-		CA925C1F1D339137009776EC /* activity_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1B1D339137009776EC /* activity_circle@2x.png */; };
-		CA925C201D339137009776EC /* ThemeConfig.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1C1D339137009776EC /* ThemeConfig.strings */; };
-		CA925C211D339137009776EC /* ThemeConfig.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA925C1D1D339137009776EC /* ThemeConfig.strings */; };
 		F27E41C8DAF469359E634F73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D04AEBE576E5A8DE7BE032 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,15 +47,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40557B4B1F6FC4F700BEBE05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40557B4C1F6FC4F700BEBE05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40557B4F1F6FC50B00BEBE05 /* DefaultConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultConfig.json; sourceTree = "<group>"; };
+		40557B501F6FC50B00BEBE05 /* FUThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUThemeManager.h; sourceTree = "<group>"; };
+		40557B511F6FC50B00BEBE05 /* FUThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUThemeManager.m; sourceTree = "<group>"; };
+		40557B521F6FC50B00BEBE05 /* NightConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NightConfig.json; sourceTree = "<group>"; };
+		40557B551F6FC50B00BEBE05 /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		40557B561F6FC50B00BEBE05 /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
+		40557B571F6FC50B00BEBE05 /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		40557B591F6FC50B00BEBE05 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		40557B5A1F6FC50B00BEBE05 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		40557B621F6FC55500BEBE05 /* MineUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineUIService.h; sourceTree = "<group>"; };
+		40557B631F6FC55500BEBE05 /* MineUIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineUIService.m; sourceTree = "<group>"; };
+		40557B641F6FC55500BEBE05 /* MineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewModel.h; sourceTree = "<group>"; };
+		40557B651F6FC55500BEBE05 /* MineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewModel.m; sourceTree = "<group>"; };
+		40E964111F70A8850047DCF9 /* test1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test1-1.png"; sourceTree = "<group>"; };
+		40E964121F70A8850047DCF9 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		40E964131F70A8850047DCF9 /* test2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test2-2.png"; sourceTree = "<group>"; };
+		40E964141F70A8850047DCF9 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		41D04AEBE576E5A8DE7BE032 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABF6DAF937C528E5D6FFCF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BDB14D30728BC21BA78F074C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CA925BE01D338F5B009776EC /* FUThemeManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUThemeManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA925BE41D338F5B009776EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA925BE61D338F5B009776EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CA925BE71D338F5B009776EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA925BE91D338F5B009776EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA925BEA1D338F5B009776EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA925BED1D338F5B009776EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA925BEF1D338F5B009776EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA925BF21D338F5B009776EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,12 +81,6 @@
 		CA925C041D338F5B009776EC /* FUThemeManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUThemeManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA925C081D338F5B009776EC /* FUThemeManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUThemeManageUITests.m; sourceTree = "<group>"; };
 		CA925C0A1D338F5B009776EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA925C161D338FC3009776EC /* FUThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUThemeManager.h; sourceTree = SOURCE_ROOT; };
-		CA925C171D338FC3009776EC /* FUThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUThemeManager.m; sourceTree = SOURCE_ROOT; };
-		CA925C191D339137009776EC /* activity_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity_circle@2x.png"; sourceTree = "<group>"; };
-		CA925C1B1D339137009776EC /* activity_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity_circle@2x.png"; sourceTree = "<group>"; };
-		CA925C1C1D339137009776EC /* ThemeConfig.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ThemeConfig.strings; sourceTree = "<group>"; };
-		CA925C1D1D339137009776EC /* ThemeConfig.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ThemeConfig.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,60 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		40557B4A1F6FC4F700BEBE05 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				40557B4B1F6FC4F700BEBE05 /* AppDelegate.h */,
+				40557B4C1F6FC4F700BEBE05 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		40557B4E1F6FC50B00BEBE05 /* FUTheme */ = {
+			isa = PBXGroup;
+			children = (
+				40557B501F6FC50B00BEBE05 /* FUThemeManager.h */,
+				40557B511F6FC50B00BEBE05 /* FUThemeManager.m */,
+				40557B4F1F6FC50B00BEBE05 /* DefaultConfig.json */,
+				40557B521F6FC50B00BEBE05 /* NightConfig.json */,
+				40E964111F70A8850047DCF9 /* test1-1.png */,
+				40E964121F70A8850047DCF9 /* test1.png */,
+				40E964131F70A8850047DCF9 /* test2-2.png */,
+				40E964141F70A8850047DCF9 /* test2.png */,
+			);
+			path = FUTheme;
+			sourceTree = "<group>";
+		};
+		40557B541F6FC50B00BEBE05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40557B551F6FC50B00BEBE05 /* MineCell.h */,
+				40557B561F6FC50B00BEBE05 /* MineCell.m */,
+				40557B571F6FC50B00BEBE05 /* MineCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40557B581F6FC50B00BEBE05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40557B591F6FC50B00BEBE05 /* MineViewController.h */,
+				40557B5A1F6FC50B00BEBE05 /* MineViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		40557B611F6FC55500BEBE05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40557B621F6FC55500BEBE05 /* MineUIService.h */,
+				40557B631F6FC55500BEBE05 /* MineUIService.m */,
+				40557B641F6FC55500BEBE05 /* MineViewModel.h */,
+				40557B651F6FC55500BEBE05 /* MineViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CA925BD71D338F5B009776EC = {
 			isa = PBXGroup;
 			children = (
@@ -136,16 +205,12 @@
 		CA925BE21D338F5B009776EC /* FUThemeManage */ = {
 			isa = PBXGroup;
 			children = (
-				CA925BE61D338F5B009776EC /* AppDelegate.h */,
-				CA925BE71D338F5B009776EC /* AppDelegate.m */,
-				CA925BE91D338F5B009776EC /* ViewController.h */,
-				CA925BEA1D338F5B009776EC /* ViewController.m */,
-				CA925C161D338FC3009776EC /* FUThemeManager.h */,
-				CA925C171D338FC3009776EC /* FUThemeManager.m */,
+				40557B4A1F6FC4F700BEBE05 /* AppDelegate */,
+				40557B581F6FC50B00BEBE05 /* ViewController */,
+				40557B541F6FC50B00BEBE05 /* View */,
+				40557B611F6FC55500BEBE05 /* ViewModel */,
+				40557B4E1F6FC50B00BEBE05 /* FUTheme */,
 				CA925BEC1D338F5B009776EC /* Main.storyboard */,
-				CA925C1A1D339137009776EC /* Night */,
-				CA925C191D339137009776EC /* activity_circle@2x.png */,
-				CA925C1D1D339137009776EC /* ThemeConfig.strings */,
 				CA925BEF1D338F5B009776EC /* Assets.xcassets */,
 				CA925BF11D338F5B009776EC /* LaunchScreen.storyboard */,
 				CA925BF41D338F5B009776EC /* Info.plist */,
@@ -178,15 +243,6 @@
 				CA925C0A1D338F5B009776EC /* Info.plist */,
 			);
 			path = FUThemeManageUITests;
-			sourceTree = "<group>";
-		};
-		CA925C1A1D339137009776EC /* Night */ = {
-			isa = PBXGroup;
-			children = (
-				CA925C1B1D339137009776EC /* activity_circle@2x.png */,
-				CA925C1C1D339137009776EC /* ThemeConfig.strings */,
-			);
-			path = Night;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +315,8 @@
 				TargetAttributes = {
 					CA925BDF1D338F5B009776EC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QUS6GHRM95;
+						ProvisioningStyle = Automatic;
 					};
 					CA925BF81D338F5B009776EC = {
 						CreatedOnToolsVersion = 7.2;
@@ -295,12 +353,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA925C211D339137009776EC /* ThemeConfig.strings in Resources */,
-				CA925C201D339137009776EC /* ThemeConfig.strings in Resources */,
 				CA925BF31D338F5B009776EC /* LaunchScreen.storyboard in Resources */,
-				CA925C1E1D339137009776EC /* activity_circle@2x.png in Resources */,
+				40E964151F70A8850047DCF9 /* test1-1.png in Resources */,
+				40557B5D1F6FC50B00BEBE05 /* NightConfig.json in Resources */,
+				40557B5B1F6FC50B00BEBE05 /* DefaultConfig.json in Resources */,
 				CA925BF01D338F5B009776EC /* Assets.xcassets in Resources */,
-				CA925C1F1D339137009776EC /* activity_circle@2x.png in Resources */,
+				40E964161F70A8850047DCF9 /* test1.png in Resources */,
+				40E964181F70A8850047DCF9 /* test2.png in Resources */,
+				40557B5F1F6FC50B00BEBE05 /* MineCell.xib in Resources */,
+				40E964171F70A8850047DCF9 /* test2-2.png in Resources */,
 				CA925BEE1D338F5B009776EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,10 +435,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA925C181D338FC3009776EC /* FUThemeManager.m in Sources */,
-				CA925BEB1D338F5B009776EC /* ViewController.m in Sources */,
-				CA925BE81D338F5B009776EC /* AppDelegate.m in Sources */,
+				40557B661F6FC55500BEBE05 /* MineUIService.m in Sources */,
+				40557B5C1F6FC50B00BEBE05 /* FUThemeManager.m in Sources */,
+				40557B4D1F6FC4F700BEBE05 /* AppDelegate.m in Sources */,
+				40557B5E1F6FC50B00BEBE05 /* MineCell.m in Sources */,
 				CA925BE51D338F5B009776EC /* main.m in Sources */,
+				40557B601F6FC50B00BEBE05 /* MineViewController.m in Sources */,
+				40557B671F6FC55500BEBE05 /* MineViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,10 +581,16 @@
 			baseConfigurationReference = BDB14D30728BC21BA78F074C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fujunzhi1007@163.com (QZ3GEVWT3D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FUThemeManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManage";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.FUThemeManage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -529,10 +599,16 @@
 			baseConfigurationReference = 4ABF6DAF937C528E5D6FFCF4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fujunzhi1007@163.com (QZ3GEVWT3D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FUThemeManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.visionet-.FUThemeManage";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.FUThemeManage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

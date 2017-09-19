@@ -1,0 +1,12 @@
+{
+    "Mine": {
+            "Mine_TableView_BGColor" : "f5f5f5",
+            "Mine_Cell_BGColor" : "255,255,255",
+            "Mine_Cell_TitletLabel_TextColor" : "000000",
+            "Mine_Cell_ContentLabel_TextColor" : "666666",
+            "Nav_Bar_Title_Color" : "255,255,255",
+            "Nav_Bar_BGColor" : "#38befa",
+            "Tab_Bar_BGColor" : "255,255,255",
+            }
+}
+
