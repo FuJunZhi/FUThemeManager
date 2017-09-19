@@ -23,7 +23,7 @@
 
 
 ### 带动画的效果图
-<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.gif" width="30%" height="30%">
+<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.gif" width="40%" height="40%">
 
 
 用法
@@ -117,7 +117,7 @@ self.fu_Theme.fu_ThemeChangeConfig(^(NSString *currentTheme, NSString *notiName)
 self.view.backgroundColor = [UIColor fu_ThemeColorName:@"自定义标签1.color1"];
 ```
 - Interface Builder中设置主题字体颜色
-<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.png" width="30%" height="30%">
+  <img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.png" width="80%" height="80%">
 
 ### 本地图片设置
 ```
