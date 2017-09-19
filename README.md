@@ -114,7 +114,7 @@ self.fu_Theme.fu_ThemeChangeConfig(^(NSString *currentTheme, NSString *notiName)
 *
 * json数据里，色值可以是rgb／rgba/16进制 格式
 */
-self.view.backgroundColor = [UIColor fu_ThemeColorName:@"自定义标签1.color1"];
+self.view.backgroundColor = [UIColor fu_ThemeColorName:@"Mine.Mine_Cell_ContentLabel_TextColor"];
 ```
 - Interface Builder中设置主题字体颜色
   <img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.png" width="80%" height="80%">
