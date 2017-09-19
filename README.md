@@ -1,17 +1,16 @@
 # FUThemeManager
 特点
-==============
-1、可以对所有NSObject子类对象进行设置
-2、灵活动态添加主题
-3、当前主题记忆功能, 下一次启动自动布置
-4、轻量级设计, 简化文件架构, 全部集合为两个文件中
-5、支持主题字体设置（字体类型、字体大小...）
-6、支持图片赋值类型设置（仅在wifi下显示图片、不显示图片、显示图片...）
-7、支持UIView的主题背景颜色设置（代码设置、Interface Builder中设置）
-8、支持UIImageView、UIButton的主题图片设置（代码设置、Interface Builder中设置）
-9、支持UILabel、UItextView、UIButton的字体颜色设置（代码设置、Interface Builder中设置）
-10、所有设置一行代码搞定
-*UIImageView、UIButton根据状态进行图片赋值
+- 可以对所有NSObject子类对象进行设置
+- 灵活动态添加主题
+- 当前主题记忆功能, 下一次启动自动布置
+- 轻量级设计, 简化文件架构, 全部集合为两个文件中
+- 支持主题字体设置（字体类型、字体大小...）
+- 支持图片赋值类型设置（仅在wifi下显示图片、不显示图片、显示图片...）
+- 支持UIView的主题背景颜色设置（代码设置、Interface Builder中设置）
+- 支持UIImageView、UIButton的主题图片设置（代码设置、Interface Builder中设置）
+- 支持UILabel、UItextView、UIButton的字体颜色设置（代码设置、Interface Builder中设置）
+- 所有设置一行代码搞定
+- UIImageView、UIButton根据状态进行图片赋值
 
 
 ### CocoaPods
@@ -118,7 +117,7 @@ self.fu_Theme.fu_ThemeChangeConfig(^(NSString *currentTheme, NSString *notiName)
 self.view.backgroundColor = [UIColor fu_ThemeColorName:@"自定义标签1.color1"];
 ```
 - Interface Builder中设置主题字体颜色
-<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.png" width="20%" height="20%">
+<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.png" width="30%" height="30%">
 
 ### 本地图片设置
 ```
