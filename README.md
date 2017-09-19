@@ -230,3 +230,6 @@ self.testLabel.font = [UIFont fu_ThemeFont];
 ##### UITextView 
 - Interface Builder中设置主题字体颜色
 
+许可证
+==============
+LEETheme 使用 GPL V3 许可证，详情见 LICENSE 文件。
