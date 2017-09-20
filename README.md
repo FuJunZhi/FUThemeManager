@@ -10,7 +10,6 @@
 - 支持UIImageView、UIButton的主题图片设置（代码设置、Interface Builder中设置）
 - 支持UILabel、UItextView、UIButton的字体颜色设置（代码设置、Interface Builder中设置）
 - 所有设置一行代码搞定
-- UIImageView、UIButton根据状态进行图片赋值
 
 
 ### CocoaPods
