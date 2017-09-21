@@ -22,7 +22,7 @@
 
 
 ### 带动画的效果图
-<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.gif" width="40%" height="40%">
+<img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.gif" width="30%" height="30%">
 
 
 用法
