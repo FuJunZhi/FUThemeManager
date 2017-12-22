@@ -21,7 +21,7 @@
   3. '#import "FUThemeManager.h"'.
 
 
-### 带动画的效果图
+### 效果图
 <img src="https://github.com/FuJunZhi/FUResources/blob/master/Images/FUThemeManage.gif" width="30%" height="30%">
 
 
